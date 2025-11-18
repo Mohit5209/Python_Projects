@@ -7,7 +7,7 @@ This repository contains a collection of Python projects, primarily focusing on 
 ### 1. Bakasur Chat API
 A REST API backend for the Bakasur Chat App, powered by Google's Gemini AI. This API provides the AI chat functionality used in the Bakasur Chat App.
 
-> **Note:** The Flutter frontend for this API is maintained in the [Flutter_Projects/bakasur(ChatBot)](https://github.com/Mohit5209/Flutter_Projects/tree/main/bakasur) directory.
+> **Note:** The Flutter frontend for this API is maintained in the [Flutter_Projects/bakasur](https://github.com/Mohit5209/Flutter_Projects/tree/main/bakasur) directory.
 
 **Features:**
 - RESTful API endpoints

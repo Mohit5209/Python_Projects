@@ -2,6 +2,11 @@
 
 This repository contains a collection of Python projects, primarily focusing on backend services and APIs.
 
+## Quick Links
+
+- **Bakasur Chat API**: [Folder](bakasur(API)/) · [README](bakasur(API)/README.md)
+- **TB API**: [Folder](TB(API)/) · [README](TB(API)/README.md)
+
 ## Projects
 
 ### 1. Bakasur Chat API
@@ -36,6 +41,19 @@ python api.py
 
 [View Bakasur Chat API README](bakasur(API)/README.md)
 
+### 2. TB API
+A production-ready FastAPI backend focused on user identity and messaging. It provides user registration and sign-in, JWT-based authentication, password reset via email OTP, profile management, and rich chat features including creating conversations (direct and group), sending/receiving messages, marking read status, favorites and pinned chats, and device registration for notifications. Real-time messaging is supported over WebSockets, and the service uses SQLAlchemy for database access with a clean, modular structure and centralized configuration.
+
+**Highlights:**
+- FastAPI with SQLAlchemy
+- JWT auth, password reset via OTP
+- Conversations, messages, favorites, pinned, and device registration
+- WebSocket endpoint for real-time messaging
+
+[View TB API README](TB(API)/README.md)
+
+> **Note:** The Flutter frontend for this API is maintained in the [Flutter_Projects/tb_app](https://github.com/Mohit5209/Flutter_Projects/tree/main/tb_app) directory.
+
 ## Installation
 
 1. Clone the repository:
@@ -47,6 +65,8 @@ cd Python_Projects
 2. Navigate to the desired project directory:
 ```bash
 cd bakasur(API)  # For Bakasur Chat API
+# or
+cd TB(API)       # For TB API
 ```
 
 3. Create and activate a virtual environment (recommended):
@@ -60,7 +80,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ## Contributing
 

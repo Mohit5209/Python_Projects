@@ -1,0 +1,11 @@
+fastapi
+sqlalchemy
+pydantic
+uvicorn
+PyJWT
+aiomysql
+websockets
+aiohttp
+google-auth
+requests
+httpx
